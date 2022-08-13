@@ -1,5 +1,18 @@
-@import './common';
-@import './example';
-@import './header';
-@import './hero';
-@import './features';
+@import './base/common';
+@import './base/container';
+@import './base/section';
+
+@import './utils/variable';
+@import './utils/visually-hidden';
+
+@import './component/activity';
+@import './component/blog';
+@import './component/callback-request';
+@import './component/features';
+@import './component/footer';
+@import './component/header-logo';
+@import './component/header-menu';
+@import './component/hero';
+@import './component/social-network';
+@import './component/solutions';
+@import './component/team';
