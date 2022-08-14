@@ -1,3 +1,34 @@
-.hero {
-    background-color: tomato;
+// .hero {
+//   background-color: tomato;
+// }
+
+.hero-container {
+  display: block;
+  text-align: center;
+  height: 768px;
+  width: 1360px;
+  padding-top: 279px;
+  background-image: url(../images/hero.jpg);
+}
+
+.main-title {
+  margin-bottom: 25px;
+  font-size: 55px;
+  line-height: 1.2;
+  color: var(--color-text-accent);
+  text-align: center;
+}
+
+.hero-description {
+  margin-bottom: 29px;
+  font-size: 22px;
+  line-height: 1.67;
+  color: var(--color-text-accent);
+  text-align: center;
+}
+
+.hero__buton {
+  background-color: var(--color-accent);
+  width: 165px;
+  padding: 10px 30px;
 }
