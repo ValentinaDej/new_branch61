@@ -3,7 +3,9 @@
   width: 1360px;
   padding-top: 279px;
   background-image: url(../images/hero.jpg);
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-title {
@@ -22,7 +24,7 @@
 
 .hero__button {
   display: flex;
-  margin: 0 auto;
+  margin: 0;
   width: 165px;
   padding: 10px 27px;
 
