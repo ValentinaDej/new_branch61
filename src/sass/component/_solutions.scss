@@ -12,7 +12,28 @@ font-size: 18px;
 line-height: 1.56;
 
 
-
+background-color: currentColor;
 color: #FFFFFF;
 
+}
+@media screen and (min-width:320px)
+    {
+
+.solution-image{
+width: 320px;
+}
+}
+
+@media screen and (min-width:770px){
+.solution-image{
+width: 384px;
+height: 564px;
+object-fit: none;
+}
+}
+
+@media screen and (min-width:1360px){
+.solution-image{
+width: 680px;
+}
 }
