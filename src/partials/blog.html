@@ -10,5 +10,67 @@
     </p>
     <button class="blog__button">Read Our Blog</button>
   </div>
-  <img class="blog__image" src="./images/blog.jpg" alt="lanch & organise work" height="517px" />
+  <div>
+  <picture>
+    <source
+      srcset="
+        ./images/blog-desk.webp    1x,
+        ./images/blog-desk@2x.webp 2x,
+        ./images/blog-desk@3x.webp 3x
+      "
+      media="(min-width: 1360px)"
+      type="image/webp"
+    />
+    <source
+      srcset="
+        ./images/blog-desk.jpg    1x,
+        ./images/blog-desk@2x.jpg 2x,
+        ./images/blog-desk@3x.jpg 3x
+      "
+      media="(min-width: 1360px)"
+      type="image/jpeg"
+    />
+    <source
+      srcset="
+        ./images/blog-tab.webp    1x,
+        ./images/blog-tab@2x.webp 2x,
+        ./images/blog-tab@3x.webp 3x
+      "
+      media="(min-width: 768px)"
+      type="image/webp"
+    />
+    <source
+      srcset="
+        ./images/blog-tab.jpg    1x,
+        ./images/blog-tab@2x.jpg 2x,
+        ./images/blog-tab@3x.jpg 3x
+      "
+      media="(min-width: 768px)"
+      type="image/jpeg"
+    />
+    <source
+      srcset="
+        ./images/blog-mob.webp    1x,
+        ./images/blog-mob@2x.webp 2x,
+        ./images/blog-mob@3x.webp 3x
+      "
+      media="(max-width: 767px)"
+      type="image/webp"
+    />
+    <source
+      srcset="
+        ./images/blog-mob.jpg    1x,
+        ./images/blog-mob@2x.jpg 2x,
+        ./images/blog-mob@3x.jpg 3x
+      "
+      media="(max-width: 767px)"
+      type="image/jpeg"
+    />
+    <img
+    class="blog__image"
+      src="./images/blog.jpg"
+      alt="lanch & organise work"
+    />
+  </picture>
+</div>
 </section>
