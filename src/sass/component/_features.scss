@@ -11,7 +11,10 @@
 
 .features__item {
   width: 362px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .features__item:not(:last-child) {
@@ -42,8 +45,10 @@
   margin-bottom: 16px;
 }
 .features__descriptions {
+  text-align: center;
   align-items: center;
   font-size: 18px;
   line-height: 1.15;
   color: var(--color-dark);
 }
+
