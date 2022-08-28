@@ -3,10 +3,11 @@
 }
 
 .callback-form {
-  margin-top: 78px;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-bottom: 82px;
+  padding-top: 78px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 82px;
+  background-color: #f4f4f4;
 }
 
 .callback-form__text {
@@ -21,4 +22,24 @@
 .callback-form__input {
   display: inline-block;
   width: 100%;
+  background: #ffffff;
+  border: 1px solid #f5f5f5;
+}
+
+.callback-form__desc {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+// .callback-form__desc:last-child {
+//   margin-bottom: 0;
+// }
+
+.callback-btn {
+  display: block;
+  margin-top: 30px;
+  width: 100%;
+  border: none;
+  background-color: #28a745;
 }
